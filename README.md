@@ -1,5 +1,3 @@
----
-
 A empresa de automação portuária Poxim Tech está desenvolvendo um sistema para movimentação automatizada dos contêineres de carga de origem internacional no Porto de Sergipe para maximizar a eficiência da fiscalização aduaneira.
 
 Todos os contêineres possuem um cadastro eletrônico contendo informações sobre o código do contêiner, o CNPJ da empresa importadora e o peso líquido em quilos.
@@ -11,7 +9,7 @@ Na triagem dos contêineres são fiscalizados os contêineres com a seguinte ord
 1. Divergência de CNPJ
 2. Maior diferença percentual de peso líquido
 
-#### Formato de arquivo de entrada
+## Formato de arquivo de entrada
 
 ```text
 [#n contêineres cadastrados]
@@ -24,7 +22,7 @@ Na triagem dos contêineres são fiscalizados os contêineres com a seguinte ord
 [Código m] [CNPJ m] [Peso m]
 ```
 
-#### Exemplo de entrada
+## Exemplo de entrada
 
 ```text
 6
@@ -42,11 +40,11 @@ QOZJ7913219 34.699.211/9365-11 16722
 FCCU4584578 50.503.434/5731-28 16398
 ```
 
-#### Formato de arquivo de saída
+## Formato de arquivo de saída
 
 Sequência de fiscalização dos contêineres do navio, com a causa da triagem e seguindo a ordem de cadastramento.
 
-#### Exemplo de saída
+## Exemplo de saída
 
 ```text
 KTAJ0603546:20.500.522/6013-58<->20.500.522/6113-58
